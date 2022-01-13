@@ -4,4 +4,8 @@ class PagesController < ApplicationController
     
     def about
     end
+
+    def old_home
+        @test = 1..100
+    end
 end
